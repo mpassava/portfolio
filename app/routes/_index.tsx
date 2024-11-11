@@ -19,7 +19,7 @@ export default function Index() {
         >
           <pre>Mike Passavanti   Full Stack Developer</pre>
         </div>
-        <div className="border-orange-600 border-r-2 animate-blink-caret"></div>
+        <div className="border-transparent border-r-2 animate-blink-and-fade-caret"></div>
       </div>
     </div>
   );

@@ -18,8 +18,9 @@ export default {
         ],
       },
       animation: {
-        typing: "typing 3.5s steps(40, end)",
-        "blink-caret": "blink-caret 0.75s step-end infinite",
+        typing: "typing 2.5s steps(40, end)",
+        "blink-and-fade-caret":
+          "blink-caret 0.75s step-end infinite, fade-caret 0.5s 2.75s forwards",
       },
       keyframes: {
         typing: {
@@ -37,6 +38,10 @@ export default {
           "50%": {
             borderColor: "orange",
           },
+        },
+        "fade-caret": {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
         },
       },
       borderRadius: {
